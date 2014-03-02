@@ -120,4 +120,8 @@ TOOL := bm2bmp
 TOOL_OBJS := bm2bmp.o lab.o
 include $(srcdir)/rules.mk
 
+TOOL := devol
+TOOL_OBJS := kq8/devol.o kq8/blast.o
+include $(srcdir)/rules.mk
+
 .PHONY: clean-tools tools
